@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ns1="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete"
+        android:title="DELETE"
+        ns1:showAsAction="always"/>
+    <item
+        android:id="@+id/newfile"
+        android:title="New File"
+        ns1:showAsAction="never"/>
+    <item
+        android:id="@+id/newfolder"
+        android:title="New Folder"
+        ns1:showAsAction="never"/>
+
+</menu>
